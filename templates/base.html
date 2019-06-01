@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Cocoon -Portfolio">
+    <meta name="keywords" content="Cocoon , Portfolio">
+    <meta name="author" content="Pharaohlab">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title>Fuuinjutsu Elite</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/css/et-line.css" rel="stylesheet">
+    <link href="../static/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="../static/css/slick.css" rel="stylesheet">
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../static/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="../static/css/main.css" rel="stylesheet">
+    <link rel="icon" href="../static/img/icons/Naruto.ico" type="image/x-icon">
+</head>
+<body>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
+
+<div class="body-container container-fluid">
+    <a class="menu-btn" href="javascript:void(0)">
+        <i class="ion ion-grid"></i>
+    </a>
+    <div class="row justify-content-center">
+        <!--=================== side menu ====================-->
+        <div class="col-lg-2 col-md-3 col-12 menu_block">
+
+            <!--logo -->
+            <div class="logo_box">
+                <a href="#">
+                    <img src="../static/img/logo.png" alt="cocoon">
+                </a>
+            </div>
+            <!--logo end-->
+
+            <!--main menu -->
+            <div class="side_menu_section">
+                <ul class="menu_nav">
+                    <li>
+                        <a href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/donations">
+                            Donations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/updates">
+                            Updates
+                        </a>
+                    </li>
+		    <li>
+                        <a href="/playnow">
+                            Play Now
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://fuuinjutsuelite.forumotion.com/forum">
+                            Forum
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--main menu end -->
+
+            <!--filter menu -->
+            <!--filter menu end -->
+
+            <!--social and copyright -->
+            <!--social and copyright end -->
+
+        </div>
+        <!--=================== side menu end====================-->
+
+        <!--=================== content body ====================-->
+        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+            <div class="portfolio">
+                <div class="container-fluid">
+                    <!--=================== masaonry portfolio start====================-->
+                    <div class="grid img-container justify-content-center no-gutters">
+                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
+                                <div class="project_box_one">
+                                    <img src="../static/img/portfolio/naruto.png" alt="pro1" />
+                                </div>
+                        </div>
+                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
+                                <div class="project_box_one">
+                                    {% block inicio %}{% endblock %}
+				    {% block playnow %}{% endblock %}
+				    {% block paypal %}{% endblock %}
+                                </div>
+                        </div>
+                 
+                    </div>
+                    <!--=================== masaonry portfolio end====================-->
+                </div>
+            </div>
+        </div>
+        <!--=================== content body end ====================-->
+    </div>
+</div>
+
+<!-- jquery -->
+<script src="../static/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="../static/js/popper.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="../static/js/slick.min.js"></script>
+<!--Portfolio Filter-->
+<script src="../static/js/isotope.js"></script>
+<!-- Magnific-popup -->
+<script src="../static/js/jquery.magnific-popup.min.js"></script>
+<!--Counter-->
+<script src="../static/js/jquery.counterup.min.js"></script>
+<!-- WOW JS -->
+<script src="../static/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="../static/js/main.js"></script>
+</body>
+</html>
